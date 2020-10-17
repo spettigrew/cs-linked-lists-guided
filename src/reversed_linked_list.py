@@ -37,3 +37,26 @@ def reverse(head_of_list):
         current_node = next_node
 
     return previous_node
+
+    x = LinkedListNode('X')
+y = LinkedListNode('Y')
+z = LinkedListNode('Z')
+x.next = y
+y.next = z
+cur_node = x
+while cur_node:
+    print(cur_node.value)
+    cur_node = cur_node.next
+print("------")
+new_head = reverse(x)
+print(new_head)
+#
+# print("reversed list:")
+# cur_node = new_head
+# while cur_node:
+#     print(cur_node.value)
+#     cur_node = cur_node.next
+# print("-----")
+# print(x.value, x.next)
+# print(y.value, y.next.value)
+# print(z.value, z.next)

@@ -58,24 +58,3 @@ cur_node = x
 while cur_node:
     print(cur_node.value)
     cur_node = cur_node.next
-
-# # Your code here
-#     # Set node_to_delete.value to node_to_delete.next.value
-#     node_to_delete.value = node_to_delete.next.value
-#     # Set node_to_delete.next to  node_to_delete.next.next
-#     node_to_delete.next = node_to_delete.next.next
-# x = LinkedListNode('X')
-# y = LinkedListNode('Y')
-# z = LinkedListNode('Z')
-# x.next = y
-# y.next = z
-# cur_node = x
-# while cur_node:
-#     print(cur_node.value)
-#     cur_node = cur_node.next
-# print("------")
-# delete_node(y)
-# cur_node = x
-# while cur_node:
-#     print(cur_node.value)
-#     cur_node = cur_node.next
